@@ -14,7 +14,7 @@ model = Pipeline(steps=[
 ])
 ```
 
-Ticket, Cabin, SibSp, and Name are dropped by features. N/A values are filled with random integer for Age. In addition, the number of zero Fare values is significantly large only in train.csv; hence, they are also considered as N/A values and filled randomly.
+Ticket, Cabin, SibSp, Parch, and Name are dropped by features. N/A values are filled with random integer for Age. In addition, the number of zero Fare values is significantly large only in train.csv; hence, they are also considered as N/A values and filled randomly.
 
 The model accuracy is further improved with the following three tuning methods.
 

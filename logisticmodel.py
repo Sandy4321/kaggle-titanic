@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import csv as csv
+import csv
 
 from sklearn.grid_search import GridSearchCV
 from sklearn.pipeline import Pipeline
